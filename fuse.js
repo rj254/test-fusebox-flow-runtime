@@ -29,9 +29,6 @@ Sparky.task('config', () => {
                     uglify: true,
                 }),
         ],
-        autoImport: {
-            'flow-runtime': 'flow-runtime',
-        },
     });
     // vendor
     vendor = fuse.bundle('vendor').target('browser').instructions('~ index.jsx');
